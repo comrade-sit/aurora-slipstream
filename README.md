@@ -28,9 +28,6 @@ All RPC interactions rely on official Base endpoints.
 - config/networks.json  
   Static configuration describing supported Base networks, RPC URLs, and explorers.
 
-- docs/notes.md  
-  Internal documentation covering validation steps, dependency rationale, and maintenance notes.
-
 - contracts/  
   Solidity contracts deployed to Base Sepolia for testnet validation:
   - contract.sol — minimal contract used to confirm deployment and verification flow  
@@ -109,18 +106,18 @@ chainId (decimal): 84532
 Explorer: https://sepolia.basescan.org  
 
 Contract #1 address:  
-0x3530cb67ec0f3e120df79098f8c73d79d0303431
+0x73d6ba23d01b04160af0672800a7929dc378da34
 
 Deployment and verification:
-- https://sepolia.basescan.org/address/0x3530cb67ec0f3e120df79098f8c73d79d0303431
-- https://sepolia.basescan.org/0x3530cb67ec0f3e120df79098f8c73d79d0303431/0#code  
+- https://sepolia.basescan.org/address/0x73d6ba23d01b04160af0672800a7929dc378da34
+- https://sepolia.basescan.org/0x73d6ba23d01b04160af0672800a7929dc378da34/0#code  
 
 Contract #2 address:  
-0x07579aba3c3f1fa90aaf90799f29e65c569628a6
+0x58376311be0d126b6c0e9be92b82cd653e16bf3b
 
 Deployment and verification:
-- https://sepolia.basescan.org/address/0x07579aba3c3f1fa90aaf90799f29e65c569628a6
-- https://sepolia.basescan.org/0x07579aba3c3f1fa90aaf90799f29e65c569628a6/0#code  
+- https://sepolia.basescan.org/address/0x58376311be0d126b6c0e9be92b82cd653e16bf3b
+- https://sepolia.basescan.org/0x58376311be0d126b6c0e9be92b82cd653e16bf3b  
 
 
 These testnet deployments provide a controlled environment for validating Base tooling, account abstraction flows, and read-only onchain interactions prior to Base Mainnet usage.
